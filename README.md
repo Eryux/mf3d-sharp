@@ -30,26 +30,26 @@ This is not the most complete library either, have look to [geometry3Sharp proje
 
 ### Structs
 
-* Vector2d, Vector3d, Vector4d, Vector2f, Vector3f, Vector4f
+* **Vector2d, Vector3d, Vector4d, Vector2f, Vector3f, Vector4f**
     * Vector structs including basic operation, dot and cross product, length, normalization and distance calculation
 
-* Matrix2d, Matrix3d, Matrix4d, Matrix2f, Matrix3f, Matrix4f
+* **Matrix2d, Matrix3d, Matrix4d, Matrix2f, Matrix3f, Matrix4f**
     * Matrix structs including basic operation, identity and zero matrix, determinant, normalization tranpose and inverse calculation
     * Axis angle to Matrix3d or Matrix3f conversion
     * Translation, rotation and scale Matrix4d/4f calculation and extraction
 
-* Quaterniond, Quaternionf
+* **Quaterniond, Quaternionf**
     * Quaternion structs including basic operation, identity and zero quaternion, length, inverse, dot product, normalization, conjugate, rotation matrix conversion, euler conversion, axis angle, slerp
 
-### Class
+### Classes
 
-* Transformd, Transformf
+* **Transformd, Transformf**
     * A usefull class to describe and manipulate a 3D object in space using a Vector3 for the position and scale and a Quaternion for rotation.
     * Transform class can have childs which will inherit of parent position
     * It include basic transformations (translate, rotate and scale) and conversion to Matrix4
     * Implement cloneable interface (clone will clone the instance and all attached childs)
 
-All structs and classes are in MF3D namespace and they are serializables by default.
+**All structs and classes are in MF3D namespace and they are serializables by default.**
 
 
 ## License
